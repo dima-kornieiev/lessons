@@ -1,0 +1,141 @@
+
+/* Fonts start */
+/* Larsseit */
+
+@font-face {
+  font-family: 'Larsseit';
+  src: local('Larsseit Regular'), local('Larsseit-Regular'),
+    url('../fonts/') format('woff2'),
+    url('../fonts/Larsseit.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: local('Larsseit Medium'), local('Larsseit-Medium'),
+    url('../fonts/Larsseit-Medium.woff2') format('woff2'),
+    url('../fonts/Larsseit-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: local('Larsseit Bold'), local('Larsseit-Bold'),
+    url('../fonts/Larsseit-Bold.woff2') format('woff2'),
+    url('../fonts/Larsseit-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Lato */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* Lato Cir */
+
+@font-face {
+  font-family: 'Lato Cir';
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url('../fonts/') format('woff2'),
+    url('../fonts/latoregular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Cir';
+  src: local('Lato Bold'), local('Lato-Bold'),
+    url('../fonts/latobold.woff2') format('woff2'),
+    url('../fonts/latobold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Cir';
+  src: local('Lato Black'), local('Lato-Black'),
+    url('../fonts/latoblack.woff2') format('woff2'),
+    url('../fonts/latoblack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Roboto linked in head */
+/* Fonts end */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 48px;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1.5em 1em;
+}
+
+.navigation {
+  text-align: center;
+  cursor: pointer;
+  color: blue;
+  background-color: #eee;
+}
+
+.navigation-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation .navigation__item {
+  padding: 1em 1em;
+  display: inline-block;
+}
+
+.title {
+  font-family: 'Larsseit', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.intro__title {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.text {
+  text-align: justify;
+  margin: 1em 0;
+  font-size: 1em;
+}
+
+.lato-cir {
+  font-family: 'Lato Cir', sans-serif;
+  font-weight: 900;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.text span {
+  font-weight: 700;
+}
+
+.symbol {
+  text-align: center;
+}
+
+.symbol__img {
+  width: 100%;
+}
