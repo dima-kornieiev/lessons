@@ -1,5 +1,9 @@
 
 /* Fonts start */
+/* Lato */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 /* Larsseit */
 
 @font-face {
@@ -28,10 +32,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
-/* Lato */
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* Lato Cir */
 
@@ -110,6 +110,11 @@ header {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 2em;
   margin-top: 0;
+}
+
+.intro__video {
+  width: 100%;
+  height: 100%;
 }
 
 .text {
