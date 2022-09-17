@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'EgonSans';
+  src: local('Egon Sans Regular'), local('Egon-Sans-Regular'),
+      url('../fonts/EgonSans.woff2') format('woff2'),
+      url('../fonts/EgonSans.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EgonSans';
+  src: local('Egon Sans Italic'), local('Egon-Sans-Italic'),
+      url('../fonts/EgonSans-Italic.woff2') format('woff2'),
+      url('../fonts/EgonSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'EgonSans';
+  src: local('Egon Sans Bold Italic'), local('Egon-Sans-Bold-Italic'),
+      url('../fonts/EgonSans-BoldItalic.woff2') format('woff2'),
+      url('../fonts/EgonSans-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  padding: 30px 0;
+  font-family: 'M PLUS 2', sans-serif;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.navigation {
+  text-align: center;
+  color: #00f;
+  text-decoration: underline;
+}
+
+.navigation li {
+  margin: 10px 0;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 500;
+}
+
+.text {
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+}
+
+.about .about__title {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 900;
+}
+
+.about .egosans-normal {
+  font-family: 'EgonSans', sans-serif;
+  color: rgb(32, 56, 141);
+  text-indent: 30px;
+}
+
+.about .egosans-normal span {
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgba(157, 153, 80, 0.5);
+}
+
+.about .egosans-italic {
+  font-family: 'EgonSans', sans-serif;
+  font-style: italic;
+}
+
+.about .egosans-italic span {
+  text-transform: uppercase;
+  color: #35af7e;
+}
+
+.engines .egosans-italic-bold {
+  font-family: 'EgonSans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+  /* white-space: nowrap; */
+}
+
+.name .name__text {
+  word-spacing: 20px;
+  line-height: 2;
+}
+
+
+
