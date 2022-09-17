@@ -99,6 +99,11 @@ img {
 .name .name__text {
   word-spacing: 20px;
   line-height: 2;
+  text-shadow: 5px 5px 5px #777;
+}
+
+.name .name__text span {
+  text-decoration: line-through;
 }
 
 
