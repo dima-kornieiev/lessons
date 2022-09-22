@@ -104,6 +104,7 @@ img {
   max-height: 300px;
   border-radius: 50%;
   overflow: auto;
+  border: 3px dashed #000;
 }
 
 .block-2 img {
