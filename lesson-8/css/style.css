@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+    url('../fonts/Lato-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Black.woff2') format('woff2'),
+    url('../fonts/Lato-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 160%;
+  color: #424551;
+  padding: 20px 0;
+}
+
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.about {
+  margin-bottom: 100px;
+}
+
+.about-block {
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+h2.about__title {
+  margin-bottom: 40px;
+}
+
+.about__text {
+  max-width: 600px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+h3.lern-block__title {
+  margin-bottom: 24px;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.about .lern-block__list li {
+  background: url('../img/icons/Vector.svg') 0 5px no-repeat;
+  padding-left: 32px;
+}
+
+.curator-info .curator-info__text {
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+h2.curator-info__title {
+  margin-bottom: 16px;
+}
+
+.curator-info .curator-info__subtitle {
+  font-size: 20px;
+  line-height: 150%;
+  color: #787A80;
+}
+
+.curator-info {
+  margin-bottom: 32px;
+}
+
+.curator-rating__list {
+  margin-bottom: 32px;
+}
+
+.curator-rating__list li {
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.curator-rating__list li:nth-child(1) {
+  background: url('../img/icons/star.svg') 0 5px no-repeat;
+  padding-left: 24px;
+}
+
+.curator-rating__list li:nth-child(2) {
+  background: url('../img/icons/play.svg') 0 5px no-repeat;
+  padding-left: 24px;
+}
+
+.curator-rating__list li:nth-child(3) {
+  background: url('../img/icons/profile.svg') 0 5px no-repeat;
+  padding-left: 24px;
+}
+
+.curator__text {
+  max-width: 600px;
+}
+
+.curator {
+  margin-bottom: 100px;
+}
+
+.home__title {
+  margin-bottom: 40px;
+}
+
+.block-1 {
+  max-width: 200px;
+  min-height: 50px;
+  background-color: #f88;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.block-1:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.block-2 {
+  max-width: 300px;
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.block-2 img {
+  max-width: 100%;
+}
+
+.block-2:target {
+  display: block;
+}
+
+.block-3 {
+  max-width: 600px;
+  min-height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: none;
+  background-color: #fbb;
+  padding: 10px 10px;
+}
+
+.block-3:target {
+  display: block;
+}
+
+.block-3__item-1, .block-3__item-7 {
+  max-width: 100px;
+  background-color: #6dd;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.block-3__item-2 {
+  max-width: 30px;
+  min-height: 40px;
+  background-color: #6dd;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+.block-3__item-1:hover + div, .block-3__item-2:hover {
+  visibility: visible;
+}
+
+.block-3__item-3 {
+  max-width: calc(50% + 15px);
+  min-height: 30px;
+  background-color: #6dd;
+  visibility: hidden;
+}
+
+.block-3__item-2:hover + div, .block-3__item-3:hover {
+  visibility: visible;
+}
+
+.block-3__item-4 {
+  max-width: 20px;
+  min-height: 200px;
+  background-color: #6dd;
+  visibility: hidden;
+}
+
+.block-3__item-3:hover + div, .block-3__item-4:hover {
+  visibility: visible;
+}
+
+.block-3__item-5 {
+  max-width: calc(50% + 9px);
+  min-height: 20px;
+  background-color: #6dd;
+  visibility: hidden;
+}
+
+.block-3__item-4:hover + div, .block-3__item-5:hover {
+  visibility: visible;
+}
+
+.block-3__item-6 {
+  max-width: 18px;
+  min-height: 30px;
+  margin: 0 auto;
+  background-color: #6dd;
+  visibility: hidden;
+}
+
+.block-3__item-5:hover + div, .block-3__item-6:hover {
+  visibility: visible;
+}
+
+.block-3__item-7 {
+  visibility: hidden;
+}
+
+.block-3__item-6:hover + div, .block-3__item-7:hover {
+  visibility: visible;
+}
