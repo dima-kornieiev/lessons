@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+    url('../fonts/Lato-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Black.woff2') format('woff2'),
+    url('../fonts/Lato-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class*="__container"] {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.page {
+  font-family: 'Lato', sans-serif;
+  line-height: 160%;
+  color: #424551;
+}
+
+.article {}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+.article__title {
+  margin-bottom: 92px;
+}
+
+.article__img {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.article__text {
+  margin-bottom: 60px;
+}
+
+.text__main {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+
+.text__shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 48px;
+}
+
+.article__text p:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.blockquote {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  padding-left: 58px;
+}
+
+.blockquote::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  background: url('../img/icon/braces.svg') 0 0 / 100% no-repeat;
+  top: 0;
+  left: 0;
+}
+
+.text__blockquote {
+  margin-bottom: 48px;
+}
+
+.list li {
+  padding-left: 32px;
+  position: relative;
+}
+
+.list li:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.list li::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url('../img/icon/check.svg') 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.text__list {
+  margin-bottom: 24px;
+ }
