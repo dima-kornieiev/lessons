@@ -88,7 +88,7 @@ body {
 .car {
   position: relative;
   top: 50%;
-  transform: translateX(1200px);
+  transform: translateX(250%);
   transition: all 2s ease-in 2s;
 }
 
@@ -152,7 +152,7 @@ body {
   top: -200%;
   left: 10%;
   transform: translateY(500px);
-  transition: all 2s;
+  transition: all 2s ease;
 }
 
 .footer {
@@ -162,9 +162,9 @@ body {
 
 .end-img {
   position: relative;
-  left: -70%;
-  transform: translateX(90%);
-  transition: transform 2s ease-in 3.5s;
+  left: -90%;
+  transform: translateX(110%);
+  transition: all 3s ease-in 3.5s;
 
 }
 
