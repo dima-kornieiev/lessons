@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+    url('../fonts/Lato-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Black.woff2') format('woff2'),
+    url('../fonts/Lato-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  max-width: 810px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.wheel {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  border: 4px dashed brown;
+  transform: rotate(360deg);
+  transition: transform 3s ease-in 2s;
+}
+
+.wheel__disk {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.disk__part {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.wheel--front {
+  position: absolute;
+  left: 400px;
+  top: 180px;
+}
+
+.car {
+  position: relative;
+  top: 50%;
+  transform: translateX(1200px);
+  transition: all 2s ease-in 2s;
+}
+
+
+
+.car__back {
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+  border-radius: 16px;
+  position: relative;
+}
+
+.car__back::before {
+  content: "";
+  background-color: #f00;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  border-radius: 3px;
+}
+
+.car__cabin {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  border-radius: 16px;
+  position: absolute;
+  top: -90px;
+  left: 30%;
+}
+
+.car__front {
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+  position: absolute;
+  border-radius: 0% 100% 44% 56% / 100% 100% 0% 0%;
+  top: 0;
+  left: 30%;
+}
+
+.car__front::after {
+  content: "";
+  background-color: #fff;
+  width: 30px;
+  height: 10px;
+  position: absolute;
+  right: 00;
+  top: 70%;
+  border-radius: 3px;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  position: absolute;
+  top: -200%;
+  left: 10%;
+  transform: translateY(500px);
+  transition: all 2s;
+}
+
+.footer {
+  height: 100px;
+  background-color: #ff0;
+}
+
+.end-img {
+  position: relative;
+  left: -70%;
+  transform: translateX(90%);
+  transition: transform 2s ease-in 3.5s;
+
+}
+
+
+
+
+
+
+
+
