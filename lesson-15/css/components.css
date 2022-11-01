@@ -1,0 +1,42 @@
+.button {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  line-height: 1.25;
+  padding: 16px 40px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+}
+
+.button--outline {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 15px 40px;
+  border: 1px solid #F75E05;
+  position: relative;
+}
+
+.button--outline::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.button--outline:hover::before {
+  opacity: 1;
+}
+
+.button--outline:hover span {
+  color: #FFFFFF;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
